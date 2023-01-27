@@ -1,4 +1,3 @@
-import "bootstrap-icons/font/bootstrap-icons.css"
 import CartWidget from './CartWidget'
 
 const NavBar = () => {
