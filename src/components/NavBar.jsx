@@ -14,13 +14,13 @@ const NavBar = () => {
                             <a className="nav-link">cosa0</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" >cosa1</a>
+                            <a className="nav-link" href="#">cosa1</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">cosa2</a>
+                            <a className="nav-link" href="#">cosa2</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">cosa3</a>
+                            <a className="nav-link" href="#">cosa3</a>
                         </li>
                         <li className="nav-item">
                             <CartWidget/>

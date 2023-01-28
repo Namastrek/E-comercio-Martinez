@@ -1,6 +1,6 @@
-const ItemListContainer = () => {
+const ItemListContainer = ({greeting}) => {
     return(
-        console.log("Esto está conectado")
+        <h2>{greeting}</h2>
     )
 }
 
