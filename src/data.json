@@ -1,0 +1,82 @@
+[
+    {
+        "id": 0,
+        "title": "The Las Of Us",
+        "stock": 9,
+        "description": "Mundo abierto, Supervivencia.",
+        "price": 4000,
+        "pictureURL": "IMG/thelastofus.jpg",
+        "rating": 9.5,
+        "new": true
+    },
+    {
+        "id": 1,
+        "title": "Persona 5",
+        "stock": 10,
+        "description": "Juego de acción por turnos, anime.",
+        "price": 2000,
+        "pictureURL": "IMG/persona5.jpg",
+        "rating": 10.0,
+        "new": true
+    },
+    {
+        "id": 2,
+        "title": "Pacman",
+        "stock": 23,
+        "description": "Plataformas, arcade, clásicos.",
+        "price": 250,
+        "pictureURL": "IMG/pacman.jpg",
+        "rating": 7.2,
+        "new": false
+    },
+    {
+        "id": 3,
+        "title": "crash Bandicoot",
+        "stock": 20,
+        "description": "Plataformas, arcade, clásicos.",
+        "price": 250,
+        "pictureURL": "IMG/crash.jpg",
+        "rating": 9.1,
+        "new": false
+    },
+    {
+        "id": 4,
+        "title": "Control",
+        "stock": 34,
+        "description": "Misterio, poderes, policiales.",
+        "price": 1000,
+        "pictureURL": "IMG/control.jpg",
+        "rating": 8.6,
+        "new": true
+    },
+    {
+        "id": 5,
+        "title": "Call Of Duty",
+        "stock": 9,
+        "description": "Disparos, multijugador.",
+        "price": 600,
+        "pictureURL": "IMG/callduty.jpg",
+        "rating": 5.3,
+        "new": false
+    },
+    {
+        "id": 6,
+        "title": "Assassins Creeds Origins",
+        "stock": 16,
+        "description": "Mundo abierto, acción, rpg.",
+        "price": 2000,
+        "pictureURL": "IMG/asesino.jpeg",
+        "rating": 8.0,
+        "new": false
+    },
+    {
+        "id": 7,
+        "title": "Outlast 2",
+        "stock": 26,
+        "description": "Terror, supervivencia, acción.",
+        "price": 1750,
+        "pictureURL": "IMG/outlast.jpg",
+        "rating": 7.3,
+        "new": false
+    }
+]

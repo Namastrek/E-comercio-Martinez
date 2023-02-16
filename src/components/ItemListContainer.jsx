@@ -1,7 +1,11 @@
-const ItemListContainer = ({greeting}) => {
+import "./CSS/itemListContainer.css"
+import { ItemList } from "./ItemList"
+
+export const ItemListContainer = ({greeting}) => {
     return(
-        <h2>{greeting}</h2>
+        <>
+        <h1>{greeting}</h1>
+        <ItemList/>
+        </>
     )
 }
-
-export default ItemListContainer
