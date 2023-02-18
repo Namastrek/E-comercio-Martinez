@@ -1,6 +1,6 @@
 [
     {
-        "id": 0,
+        "id": 1,
         "title": "The Las Of Us",
         "stock": 9,
         "description": "Mundo abierto, Supervivencia.",
@@ -10,7 +10,7 @@
         "new": true
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Persona 5",
         "stock": 10,
         "description": "Juego de acción por turnos, anime.",
@@ -20,7 +20,7 @@
         "new": true
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Pacman",
         "stock": 23,
         "description": "Plataformas, arcade, clásicos.",
@@ -30,7 +30,7 @@
         "new": false
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "crash Bandicoot",
         "stock": 20,
         "description": "Plataformas, arcade, clásicos.",
@@ -40,7 +40,7 @@
         "new": false
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Control",
         "stock": 34,
         "description": "Misterio, poderes, policiales.",
@@ -50,7 +50,7 @@
         "new": true
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Call Of Duty",
         "stock": 9,
         "description": "Disparos, multijugador.",
@@ -60,7 +60,7 @@
         "new": false
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Assassins Creeds Origins",
         "stock": 16,
         "description": "Mundo abierto, acción, rpg.",
@@ -70,7 +70,7 @@
         "new": false
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Outlast 2",
         "stock": 26,
         "description": "Terror, supervivencia, acción.",

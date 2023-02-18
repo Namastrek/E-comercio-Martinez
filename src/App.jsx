@@ -27,6 +27,11 @@ export function App() {
                         <ItemDetailContainer/>
                     </>
                 }/>
+                <Route path='/carrito' element={
+                    <>
+                        <NavBar/>
+                    </>
+                }/>
             </Routes>
         </BrowserRouter>
         </>

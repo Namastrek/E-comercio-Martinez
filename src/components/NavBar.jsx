@@ -20,7 +20,7 @@ export const NavBar = () => {
                             <Link className="nav-link" to="/category/:id">Nuevos Productos</Link>
                         </li>
                         <li className="nav-item" >
-                            <a className="nav-link text-white-50" href='#'><CartWidget/></a>
+                            <Link className="nav-link text-white-50 dropdown"><CartWidget/></Link>
                         </li>
                     </ul>
                 </div>
