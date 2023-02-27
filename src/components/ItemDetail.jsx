@@ -1,6 +1,6 @@
 import { ItemCount } from "./ItemCount"
 
-export const ItemDetail = ({jueguito}) => {
+export const ItemDetail = ({jueguito}) => { 
     return(
         <>
         <img src={jueguito.pictureURL} className="card-img-top" alt={jueguito.title}/>

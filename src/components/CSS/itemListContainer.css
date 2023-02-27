@@ -1,3 +1,6 @@
 .card-error {
     width: 18rem;
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
 }

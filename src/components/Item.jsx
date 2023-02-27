@@ -7,7 +7,7 @@ export const Item = ({jueguito}) => {
         <div className="card-body">
             <h5 className="card-title" >{jueguito.title}</h5>
             <div className="container">
-                <Link to="/item/:id" className="btn btn-primary">Detalle del producto</Link>
+                <Link to={`/item/${jueguito.id}`} className="btn btn-primary">Detalle del producto</Link>
             </div>
         </div>
         </> 

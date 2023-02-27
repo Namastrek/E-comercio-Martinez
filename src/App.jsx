@@ -17,7 +17,7 @@ export function App() {
                 <Route path='/category/:id' element={
                     <>
                         <NavBar/>
-                        <ItemListContainer/>
+                        <ItemListContainer/> {/* configurar */}
                     </>
                 }
                 />

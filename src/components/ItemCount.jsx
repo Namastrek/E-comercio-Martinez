@@ -1,20 +1,20 @@
 import "./CSS/itemCount.css";
-import { useEffect, useState } from "react"
-/* import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
-
-const MySwal = withReactContent(Swal) */
+import { useState } from "react"
 
 export const ItemCount = ({countId}) => {
     const[count, setCount] = useState(1)
-    useEffect(()=> {
-        /* console.log("Terminar, preguntar como se haría para que el contador se pare dependiendo del stock que tenga"); */
-    },[/* count */])
+    const bajar = () => {
+        setCount(count - 1)
+    }
+    const subir = () => {
+        setCount(count + 1)
+    }
+    
     return(
         <div className="item-count">
-            <button type="button" className="btn btn-secondary" onClick={() => setCount(count - 1)}>-</button>
+            <button type="button" className="btn btn-primary" disabled={count <= countId} onClick={() => bajar()}>-</button>
             <p>{count}</p>
-            <button type="button" className="btn btn-secondary" onClick={() => setCount(count + 1)}>+</button>
+            <button type="button" className="btn btn-primary" disabled={count >= countId} onClick={() => subir()}>+</button>
         </div>
     )
 }
